@@ -2,7 +2,7 @@ FROM golang:1.10.2 as base-builder
 
 WORKDIR /root/
 
-RUN git clone https://github.com/AlexWoo/go-rtc-server.git
+RUN git clone https://github.com/Cibifang/go-rtc-server.git
 
 WORKDIR /root/go-rtc-server
 
